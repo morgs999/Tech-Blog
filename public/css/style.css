@@ -1,4 +1,37 @@
+:root {
+    --rounded: 20px;
+}
+
 body {
-    background-color: aquamarine;
+    background-color: rgb(175, 234, 226);
     color: white;
+    padding: 15px;
+}
+
+.card {
+    border-radius: var(--rounded);
+}
+
+header {
+    background-color: rgb(147, 172, 169);
+    color: rgb(222, 222, 222);
+}
+
+.menu {
+    display: flex;
+    justify-content: right;
+}
+
+.menu,
+nav {
+    padding: 5px;
+}
+
+a {
+    text-decoration: dashed;
+    color: whitesmoke;
+}
+
+a :hover {
+    color: black;
 }

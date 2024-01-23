@@ -7,6 +7,7 @@ router.get('/', async (req, res) => {
     // grab seed data
     // map to plain:true or serialized
     // res.render to homepage, with logged_in
+    res.render('homepage', {})
 })
 
 // Profile Page

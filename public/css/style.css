@@ -15,6 +15,12 @@ body {
 header {
     background-color: rgb(147, 172, 169);
     color: rgb(222, 222, 222);
+    box-shadow: -9px 10px 10px 0px rgb(0, 0, 0, 0.65);
+    margin-bottom: 3%;
+}
+
+.blog-title {
+    background-color: antiquewhite;
 }
 
 .menu {
@@ -27,11 +33,44 @@ nav {
     padding: 5px;
 }
 
+.menu-button {
+    background-color: rgb(98, 98, 98);
+    border: none;
+    border-radius: var(--rounded);
+    color: white;
+    padding: 15px 32px;
+    margin-left: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 a {
     text-decoration: dashed;
     color: whitesmoke;
 }
 
-a :hover {
+a:hover {
     color: black;
+    font-size: 105%;
+}
+
+.date {
+    font-style: italic;
+    font-weight: 500;
+}
+
+.footer {
+    margin: 2%;
+    padding: 1%;
+    text-align: right;
+    background-color: rgb(66, 66, 66);
+    border-radius: var(--rounded);
+}
+
+.footer,
+p {
+    font-size: 90%;
+    margin-bottom: -1px;
 }

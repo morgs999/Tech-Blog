@@ -17,22 +17,20 @@
         <header class="display-flex justify-space-between align-center p-2">
             <div class="title">
                 <h1>
-                    <a href="/">Tech-Blog Extraordinaire</a>
+                    Tech-Blog Extraordinaire
                 </h1>
             </div>
             <div class="menu">
                 <nav>
                     <!-- Conditionally render login or logout links -->
                     {{#if logged_in}}
-
-                    <a href="/">dashboard</a>
-
-                    <a href="/profile">profile</a> |
-
-                    <button class="no-button" id="logout">logout</button>
-
+                    <button class="menu-button" id="homepage"><a href="/">homepage</a></button>
+                    <button class="menu-button" id="dashboard"><a href="/profile">dashboard</a></button>
+                    <button class="menu-button" id="logout">logout</button>
                     {{else}}
-                    <a href="/login">login</a>
+                    <button class="menu-button" id="homepage"><a href="/">homepage</a></button>
+                    <button class="menu-button" id="dashboard"><a href="/login">dashboard</a></button>
+                    <button class="menu-button" id="login"><a href="/login">login</a></button>
                     {{/if}}
                 </nav>
             </div>
@@ -45,8 +43,10 @@
         </main>
 
 
-        <footer>
-
+        <footer class="flex-row justify-flex-end align-end">
+            <div class="footer">
+                <p>Copywright some classics major who wasted college reading books.</p>
+            </div>
         </footer>
     </div>
 

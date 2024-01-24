@@ -23,6 +23,23 @@ header {
     background-color: antiquewhite;
 }
 
+.blog-header {
+    font-size: 500%;
+    text-decoration: overline;
+    text-shadow: 2px 2px #844141;
+}
+
+.greeting {
+    font-size: 350%;
+    text-shadow: 2px 2px #844141;
+    text-decoration: underline;
+}
+
+.blog-p {
+    font-size: 200%;
+    margin: 100px;
+}
+
 .menu {
     display: flex;
     justify-content: right;
@@ -67,10 +84,4 @@ a:hover {
     text-align: right;
     background-color: rgb(66, 66, 66);
     border-radius: var(--rounded);
-}
-
-.footer,
-p {
-    font-size: 90%;
-    margin-bottom: -1px;
 }

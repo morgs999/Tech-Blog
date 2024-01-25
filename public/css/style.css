@@ -8,10 +8,6 @@ body {
     padding: 15px;
 }
 
-.card {
-    border-radius: var(--rounded);
-}
-
 header {
     background-color: rgb(147, 172, 169);
     color: rgb(222, 222, 222);
@@ -19,25 +15,8 @@ header {
     margin-bottom: 3%;
 }
 
-.blog-title {
-    background-color: antiquewhite;
-}
-
-.blog-header {
-    font-size: 500%;
-    text-decoration: overline;
-    text-shadow: 2px 2px #844141;
-}
-
-.greeting {
-    font-size: 350%;
-    text-shadow: 2px 2px #844141;
-    text-decoration: underline;
-}
-
-.blog-p {
-    font-size: 200%;
-    margin: 100px;
+.card {
+    border-radius: var(--rounded);
 }
 
 .menu {
@@ -61,6 +40,27 @@ nav {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+.greeting {
+    font-size: 350%;
+    text-shadow: 2px 2px #844141;
+    text-decoration: underline;
+}
+
+.blog-title {
+    background-color: antiquewhite;
+}
+
+.blog-header {
+    font-size: 500%;
+    text-decoration: overline;
+    text-shadow: 2px 2px #844141;
+}
+
+.blog-p {
+    font-size: 200%;
+    margin: 100px;
 }
 
 a {

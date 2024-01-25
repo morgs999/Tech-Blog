@@ -1,12 +1,13 @@
 const router = require('express').Router();
 const { User } = require('../../models');
 
+// Get all Users
 router.get('/', async (req, res) => {
     const userData = await User.findAll();
-    // console.log(userData);
     res.status(200).json(userData);
 })
 
+// Create a User
 router.post('/', async (req, res) => {
     try {
         const userData = await User.create(req.body);
@@ -22,6 +23,7 @@ router.post('/', async (req, res) => {
     }
 });
 
+// Check User against DB
 router.post('/login', async (req, res) => {
     try {
         const userData = await User.findOne({ where: { email: req.body.email } });
@@ -54,6 +56,7 @@ router.post('/login', async (req, res) => {
     }
 });
 
+// User Logout
 router.post('/logout', (req, res) => {
     if (req.session.logged_in) {
         req.session.destroy(() => {

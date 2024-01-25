@@ -73,6 +73,7 @@ router.get('/post/:id', withAuth, async (req, res) => {
     }
 })
 
+// Get All Comments
 router.get('/comments', async (req, res) => {
     try {
         const commentData = await Comment.findAll({

@@ -5,11 +5,11 @@
     <p class="date">Created by {{user.name}} on {{format_date date_created}}</p>
 
     {{!-- Delete Button --}}
-    {{!-- {{#if logged_in}} --}}
+    {{#if logged_in}}
     <div class="btn-delete col-md-12 p-5 mx-5">
         <button class="btn btn-md btn-danger btn-delete" delete="{{id}}">DELETE</button>
     </div>
-    {{!-- {{/if}} --}}
+    {{/if}}
 </div>
 
 {{!-- Comment Block --}}
@@ -24,17 +24,13 @@
         </div>
     </form>
     {{!-- Rendered Comments --}}
-    {{!-- {{#if comments.length}}
-    {{#each comments as |comment|}}
-    {{> comment-details}}
-    {{/each}}
-    {{/if}} --}}
     {{#each comments as |comment|}}
     <div class="col-8 card bg-primary">
-        <h6 class="date">{{comment.contents}}a </h6>
+        <h4 class="date p-2">{{comment.contents}}</h4>
         <p class="date text-right"> Commented by {{comment.user.name}} on {{format_date comment.date_created}}</p>
     </div>
     {{/each}}
 </div>
+
 <script src="/js/comment.js"></script>
 <script src="/js/delete.js"></script>

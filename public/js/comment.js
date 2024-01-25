@@ -2,12 +2,10 @@ const commentHandler = async (event) => {
     event.preventDefault();
     const url = location.href;
     const urlArray = url.split('/')
-    console.log(urlArray);
     const post_id = urlArray[urlArray.length - 1];
-    console.log(post_id);
 
     const contents = document.querySelector('#comment').value;
-    console.log(contents);
+
     if (contents) {
 
         const response = await fetch(`/api/posts/comment`, {
@@ -19,7 +17,6 @@ const commentHandler = async (event) => {
         });
 
         if (response.ok) {
-            console.log(response.body);
             document.location.reload();
         } else {
             alert('Failed to post comment');

@@ -1,17 +1,44 @@
 [
     {
+        "id": 1,
         "name": "morgan",
         "email": "morgs@morgs.com",
         "password": "12345678"
     },
     {
+        "id": 2,
         "name": "comment",
         "email": "comment@comment.com",
         "password": "87654321"
     },
     {
+        "id": 3,
         "name": "posterboy",
         "email": "post@post.com",
         "password": "post1234"
+    },
+    {
+        "id": 4,
+        "name": "william",
+        "email": "willy@shakes.com",
+        "password": "12345678"
+    },
+    {
+        "id": 5,
+        "name": "janey",
+        "email": "jane@austen.com",
+        "password": "12345678"
+    },
+    {
+        "id": 6,
+        "name": "charles",
+        "email": "charly@dick.com",
+        "password": "12345678"
+    },
+    {
+        "id": 7,
+        "name": "dougieboy",
+        "email": "doug@adams.com",
+        "password": "12345678"
     }
 ]

@@ -1,18 +1,117 @@
 [
     {
-        "title": "Earth",
-        "contents": "Mostly harmless."
-    },
-    {
         "title": "Nebulon B",
-        "contents": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
+        "contents": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+        "user_id": 2
     },
     {
         "title": "Where am I?",
-        "contents": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain."
+        "contents": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain.",
+        "user_id": 1
     },
     {
         "title": "Et tu, Brute?",
-        "contents": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+        "contents": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.",
+        "user_id": 3
+    },
+    {
+        "title": "greatness boy!",
+        "contents": "Be not afraid of greatness. Some are born great, some achieve greatness, and others have greatness thrust upon them.",
+        "user_id": 4
+    },
+    {
+        "title": "frogs yo",
+        "contents": "Sweet are the uses of adversity which, like the toad, ugly and venomous, wears yet a precious jewel in his head.",
+        "user_id": 4
+    },
+    {
+        "title": "oh ophelia",
+        "contents": "Though she be but little, she is fierce.",
+        "user_id": 4
+    },
+    {
+        "title": "its a conundrum",
+        "contents": "I wasted time, and now doth time waste me.",
+        "user_id": 4
+    },
+    {
+        "title": "theater people ey",
+        "contents": "All the world's a stage, and all the men and women merely players. They have their exits and their entrances; and one man in his time plays many parts.",
+        "user_id": 4
+    },
+    {
+        "title": "who needs men",
+        "contents": "Her own thoughts and reflections were habitually her best companions.",
+        "user_id": 5
+    },
+    {
+        "title": "come at me sis",
+        "contents": "There is a stubbornness about me that never can bear to be frightened at the will of others. My courage always rises at every attempt to intimidate me.",
+        "user_id": 5
+    },
+    {
+        "title": "and chilllll",
+        "contents": "Ah! There is nothing like staying at home, for real comfort.",
+        "user_id": 5
+    },
+    {
+        "title": "50/50",
+        "contents": "Happiness in marriage is entirely a matter of chance.",
+        "user_id": 5
+    },
+    {
+        "title": "does gen Z read",
+        "contents": "The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.",
+        "user_id": 5
+    },
+    {
+        "title": "swipe right",
+        "contents": "I loved her against reason, against promise, against peace, against hope, against happiness, against all discouragement that could be.",
+        "user_id": 6
+    },
+    {
+        "title": "brutal",
+        "contents": "There are books of which the backs and covers are by far the best parts.",
+        "user_id": 6
+    },
+    {
+        "title": "you can never really know someone",
+        "contents": "A wonderful fact to reflect upon, that every human creature is constituted to be that profound secret and mystery to every other.",
+        "user_id": 6
+    },
+    {
+        "title": "like the movie",
+        "contents": "What greater gift than the love of a cat.",
+        "user_id": 6
+    },
+    {
+        "title": "classic",
+        "contents": "It was the best of times, it was the worst of times.",
+        "user_id": 6
+    },
+    {
+        "title": "earth",
+        "contents": "Mostly harmless.",
+        "user_id": 7
+    },
+    {
+        "title": "in the beginning",
+        "contents": "The story so far: In the beginning the Universe was created. This has made a lot of people very angry and been widely regarded as a bad move.",
+        "user_id": 7
+    },
+    {
+        "title": "no further your honor",
+        "contents": "I refuse to answer that question on the grounds that I don't know the answer.",
+        "user_id": 7
+    },
+    {
+        "title": "who's hungry?",
+        "contents": "Time is an illusion. Lunchtime doubly so.",
+        "user_id": 7
+    },
+    {
+        "title": "words to live by",
+        "contents": "don't panic.",
+        "user_id": 7
     }
 ]
